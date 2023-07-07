@@ -1,81 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Пожертвования футбольному клубу САС</title>
-
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Донаты для футбольного клуба CAC</title>
+	
 	<style>
+
+		
+
 		body {
-			font-family: Arial;
-			background-color: #f2f2f2;
+			margin: 0;
+			padding: 0;
+			background: -webkit-linear-gradient(180deg, #9c0ec4,#5400c7,#fb7743);background: linear-gradient(180deg, #9c0ec4,#5400c7,#fb7743);
+			
+			color: #fff;
 		}
-		h1 {
-			text-align: center;
-			color: #333;
-			margin-top: 50px;
-		}
+
 		.container {
-			margin: 50px auto;
-			padding: 20px;
 			max-width: 800px;
-			background-color: #fff;
-			border-radius: 10px;
-			box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-		}
-		.payment-methods {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			margin-top: 20px;
-		}
-		.payment-method {
-			flex-basis: 48%;
-			margin-bottom: 20px;
+			margin: 0 auto;
 			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+			border-radius: 10px;
+		}
+
+		.logo {
+			text-align: center;
+		}
+
+		.logo img {
+			max-width: 160px;
+			height: auto;
+		}
+
+		h1 {
+			font-size: 2.5em;
+			text-align: center;
+			margin-top: 0;
+			color: #555;
+			padding-top: 20px;
+		}
+
+		h2 {
+			font-size: 1.8em;
+			margin-top: 0;
+			color: #8e44ad;
+			text-align: center;
+		}
+
+		p {
+			font-size: 1.2em;
+			line-height: 1.5;
+			margin-bottom: 20px;
+			color: #555;
+			text-align: center;
+		}
+		
+		h3 {
+			font-size: 1.8em;
+			line-height: 1.5;
+			margin-bottom: 20px;
+			color: #555;
+			text-align: center;
+		}	
+
+
+		
+
+		.requisites {
 			background-color: #eee;
+			padding: 10px 20px;
 			border-radius: 5px;
-			box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+			color: #fff;
+			margin-bottom: 20px;
 		}
-		.payment-method h2 {
-			margin: 0 0 5px 0;
-			color: #333;
+
+		.requisites p {
+			margin: 10px 0;
+			font-size: 1.2em;
 		}
-		.payment-method p {
-			margin: 5px 0;
-			font-size: 14px;
-			color: #666;
+
+		.requisites a{
+			display: flex;
+			justify-content: center;
+			font-size: 22px;
+
 		}
-		.payment-method a {
-			color: #333;
-			text-decoration: underline;
-			font-size: 14px;
+
+		.footer {
+			
+			
+			background: -webkit-linear-gradient(90deg, #fe8140,#fed04f);
+			background: linear-gradient(90deg, #fe8140,#fed04f);
+			color: #fff;
+			padding: 10px 0;
+			text-align: center;
+			margin-top: 50px;
+			border-radius: 10px 10px 0px 0px;
+
 		}
-		.payment-method a:hover {
-			color: #777;
+
+		 a {
+			color: #361344;
+			font-weight: bold;
+			cursor: pointer;
+			text-decoration: none;
+			cursor: pointer;
 		}
+		
+
+
 	</style>
 </head>
 <body>
-	<h1>Пожертвования футбольному клубу САС</h1>
 	<div class="container">
-		<div class="payment-methods">
-			<div class="payment-method">
-				<h2>Оплата через Беларусбанк:</h2>
-				<p>Номер карты: 5470874047358047</p>
-				<p>Срок действия: 02/25</p>
-			</div>
-			<div class="payment-method">
-				<h2>Оплата через БК:</h2>
-				<p>Реф.ссылка: <a href="https://mstbt.co/9wyoz">https://mstbt.co/9wyoz</a></p>
-			</div>
-			<div class="payment-method">
-				<h2>Криптовалюта USDT TRC-20:</h2>
-				<p>Адрес кошелька: TWsGijkLq37vR1V8uTpXTQdBL47jzv3Yrw</p>
-			</div>
+		<div class="logo">
+			<img src="img/msg972908292-48901.jpg" alt="Футбольный клуб CAC">
 		</div>
+		<h1>Друзья!</h1>
+		<p>Благодарим вас за рассмотрение вопроса о пожертвованиях в Футбольный клуб CAC. Ваше пожертвование поможет нам продолжать предоставлять высококачественную тренировку и услуги для наших членов клуба.</p>
+		<h2>Информация об оплате</h2>
+		<div class="requisites">
+			<h3>Беларусбанк</h3>
+			<p>Номер карты: 5470874047358047</p>
+			<p>Срок действия:  02/25</p>
+		</div>
+		<div class="requisites">
+			<h3>Банковская карта</h3>
+			 <a href="https://mstbt.co/9wyoz">Ссылка на оплату</a>
+		</div>
+		<div class="requisites">
+			<h3>Криптовалюта USDT TRC-20</h3>
+			<p>Адрес кошелька: TWsGijkLq37vR1V8uTpXTQdBL47jzv3Yrw</p>
+		</div>
+		<p>Мы любим и ценим любые пожертвования, будь то большие или маленькие. Спасибо вам за вашу поддержку!</p>
 	</div>
-	<p><strong>Следите за нашими новостями в Instagram: </strong> <a href="https://www.instagram.com/lfc_cac/">Instagram.com/lfc_cac</a></p>
+	<div class="footer">
+		<a href="https://www.instagram.com/lfc_cac/">Инстаграм</a>
+	</div>
 </body>
 </html>
